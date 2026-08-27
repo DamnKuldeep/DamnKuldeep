@@ -2,10 +2,6 @@
 
 Agentic AI & GenAI engineer -- I build multi-agent systems, RAG pipelines, and LLM-orchestrated products that go from idea to something actually running in production, not just a notebook.
 
-### Currently
-
-Building a story-to-video pipeline (multi-stage agentic generation: script, visuals, voice, music, cut) and going deeper on retrieval quality and multi-agent verification patterns.
-
 ### Selected work
 
 **[KnowYourRightsAI](https://github.com/DamnKuldeep/KnowYourRightsAI)** -- Answers Indian-law questions in plain English/Hindi/Hinglish, every claim traced to a specific Act & section. 38,890 chunks across 1,020 Acts, 98% recall@5, tuned to decline rather than hallucinate.
