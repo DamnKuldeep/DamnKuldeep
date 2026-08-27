@@ -7,11 +7,11 @@ Agentic AI & GenAI engineer -- I build multi-agent systems, RAG pipelines, and L
 **[KnowYourRightsAI](https://github.com/DamnKuldeep/KnowYourRightsAI)** -- Answers Indian-law questions in plain English/Hindi/Hinglish, every claim traced to a specific Act & section. 38,890 chunks across 1,020 Acts, 98% recall@5, tuned to decline rather than hallucinate.
 `FastAPI` `LanceDB (bge-m3 + BM25)` `cross-encoder reranking` `NVIDIA NIM`
 
-**[StealTheDealAI](https://github.com/DamnKuldeep/StealTheDealAI)** -- 9-agent system that scans live Amazon India listings for genuinely underpriced products; 3 independent pricing models cross-check each other with outlier rejection before a deal is flagged.
-`RAG + fine-tuned LLM + local NN ensemble` `ChromaDB` `crawl4ai/Playwright` `Modal`
-
 **[ContentFactory](https://github.com/DamnKuldeep/ContentFactory)** -- Turns a story idea into a finished vertical video: script, narration, 30+ consistent scene images, matched music, and cut, fully unattended across a distributed, multi-machine job queue. ~25 min/video, 88 videos in one batch run.
 `Llama 3.3 70B` `FLUX.2` `Fish Speech` `WhisperX` `FFmpeg`
+
+**[StealTheDealAI](https://github.com/DamnKuldeep/StealTheDealAI)** -- 9-agent system that scans live Amazon India listings for genuinely underpriced products; 3 independent pricing models cross-check each other with outlier rejection before a deal is flagged.
+`RAG + fine-tuned LLM + local NN ensemble` `ChromaDB` `crawl4ai/Playwright` `Modal`
 
 **[ltxv-13b-distilled-free-gpu-pipeline](https://github.com/DamnKuldeep/ltxv-13b-distilled-free-gpu-pipeline)** -- Runs a 13B text/image-to-video model on free Kaggle T4 GPUs by NF4-quantizing it from 26GB to 8.5GB and splitting work across two GPUs. 22 LoRA style adapters, 30+ second generations.
 `LTX-Video` `NF4 quantization` `PEFT/LoRA` `Gradio`
