@@ -27,5 +27,3 @@ Building a story-to-video pipeline (multi-stage agentic generation: script, visu
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Agentic AI](https://img.shields.io/badge/Agentic%20AI-multi--agent%20systems-6E56CF?style=flat-square)
 ![RAG](https://img.shields.io/badge/RAG-hybrid%20retrieval%20%2B%20reranking-2E7D32?style=flat-square)
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=DamnKuldeep&show_icons=true&hide_title=true&hide_border=true&theme=default)
