@@ -4,7 +4,7 @@ Agentic AI & GenAI engineer -- I build multi-agent systems, RAG pipelines, and L
 
 ### Selected work
 
-**[qwen2.5-1.5b-awq-vllm-rtx3050-4gb](https://github.com/DamnKuldeep/qwen2.5-1.5b-awq-vllm-rtx3050-4gb)** -- Serves an LLM to ~22 concurrent chat users from a single 4 GiB laptop GPU. Measured the hardware's real ceiling (6 requests in flight), built a gateway that refuses to exceed it, and recorded 24 wrong predictions instead of hiding them. p95 TTFT held at 778 ms while offered load rose 6x; 14-case failure matrix, every case measured.
+**[qwen2.5-1.5b-awq-vllm-rtx3050-4gb](https://github.com/DamnKuldeep/qwen2.5-1.5b-awq-vllm-rtx3050-4gb)** -- Serves an LLM to 20 concurrent chat users from a single 4 GiB laptop GPU, with 97% of messages getting a first token within 1.5 s of first send, refusals and retries included. Found that measuring latency on admitted requests hid the refused ones, re-tuned the gateway from the user's side (10 in flight, cache-aware admission), fixed head-of-line blocking with one vLLM flag, and kept every wrong prediction on the record. 14-case failure matrix, every case measured.
 `vLLM` `AWQ + Marlin` `FastAPI` `admission control` `Prometheus/Grafana` `load testing`
 
 **[KnowYourRightsAI](https://github.com/DamnKuldeep/KnowYourRightsAI)** -- Answers Indian-law questions in plain English/Hindi/Hinglish, every claim traced to a specific Act & section. 38,890 chunks across 1,020 Acts, 98% recall@5, tuned to decline rather than hallucinate.
