@@ -26,7 +26,6 @@
 | [qwen2.5-1.5b-awq-vllm-rtx3050-4gb](https://github.com/DamnKuldeep/qwen2.5-1.5b-awq-vllm-rtx3050-4gb) | Serves an LLM to 20 concurrent chat users from a single 4 GiB laptop GPU | `vLLM` `AWQ + Marlin` `FastAPI` `Admission control` `Prometheus/Grafana` |
 | [KnowYourRightsAI](https://github.com/DamnKuldeep/KnowYourRightsAI) | Answers Indian-law questions in English, Hindi, and Hinglish with traceable legal references | `FastAPI` `LanceDB` `BM25 + BGE-M3` `Cross-encoder reranking` `NVIDIA NIM` |
 | [ContentFactory](https://github.com/DamnKuldeep/ContentFactory) | Turns a story idea into a finished vertical video with script, narration, scenes, music, and editing | `Llama 3.3 70B` `FLUX.2` `Fish Speech` `WhisperX` `FFmpeg` |
-| [StealTheDealAI](https://github.com/DamnKuldeep/StealTheDealAI) | 9-agent system scanning live Amazon India listings for genuine underpriced products | `RAG` `Fine-tuned LLM` `Local NN ensemble` `ChromaDB` `crawl4ai` `Playwright` `Modal` |
 | [ltxv-13b-distilled-free-gpu-pipeline](https://github.com/DamnKuldeep/ltxv-13b-distilled-free-gpu-pipeline) | Runs a 13B text/image-to-video model on free Kaggle T4 GPUs using NF4 quantization | `LTX-Video` `NF4 Quantization` `PEFT/LoRA` `Gradio` |
 
 </div>
